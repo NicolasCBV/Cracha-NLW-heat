@@ -18,7 +18,8 @@ module.exports = {
       },
 
       {
-        test: /\.(png|jpg|svg)$/,
+        test: /\.(png|jpg|svg)$/, 
+        exclude: /(node_modules)/, 
         use: [{
           loader: 'url-loader',
           options: {
@@ -37,7 +38,8 @@ module.exports = {
 
       {
         test: /\.js$/, 
-        use: 'source-map-loader'
+        use: 'source-map-loader', 
+        exclude: /(node_modules)/, 
       }
     ],
   },
