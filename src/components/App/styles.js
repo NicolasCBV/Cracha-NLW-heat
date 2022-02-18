@@ -49,7 +49,6 @@ export const Box = styled.div`
   position: relative;
       z-index: 1;
       top: -3rem;
-  word-break: break-all;
 
   color: var(--gray);
   @media (min-width: 630px) {
