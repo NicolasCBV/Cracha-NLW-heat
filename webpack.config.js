@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.js',
   mode: 'production',
   output: {
-    path: path.resolve(__dirname + '/dist/public'),
+    path: path.resolve(__dirname + '/docs'),
     filename: 'client.js'
   },
   module: {
