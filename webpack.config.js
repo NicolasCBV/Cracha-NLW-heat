@@ -13,7 +13,8 @@ module.exports = {
     rules: [
       { test: /\.(js|jsx)$/, exclude: /(node_modules)/, use: 'babel-loader' },
       {test: /\.(png|jpg)$/, exclude: /(node_modules)/, use: 'file-loader'},
-      {test: /\.svg$/, use: 'svg-url-loader'}
+      {test: /\.svg$/, use: 'svg-url-loader'},
+      {test: /\.js$/, use: 'source-map-loader'}
     ],
   },
   plugins: [

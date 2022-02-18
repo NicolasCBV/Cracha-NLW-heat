@@ -25,14 +25,14 @@ export default function Styles(){
       }
       
       body{
-        background: url(../../src/images/mobile.svg) no-repeat center/cover;
+        background: url(../src/images/mobile.svg) no-repeat center/cover;
         min-height: 812px;
       }
       
 
       @media (min-width: 630px) {
         body {
-          background: url(../../src/images/desktop.svg) no-repeat center/cover;
+          background: url(../src/images/desktop.svg) no-repeat center/cover;
           background-color: hsl(240, 3%, 7%);
         }
       }
@@ -64,7 +64,7 @@ export const Box = styled.div`
       height: 50rem;
       width: 21rem;
 
-      background: url(../../src/images/card.svg) no-repeat center/cover;
+      background: url(../src/images/card.svg) no-repeat center/cover;
     }
   }
 `;

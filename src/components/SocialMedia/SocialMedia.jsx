@@ -11,7 +11,7 @@ export default function SocialMedia(){
           return (
             <li key={index} className={social}>
               <a href={`https://www.${social}.com/${config.SocialMedias[social]}`} target="_blank">
-              <img id="icon" src={`../../src/images/${social}.svg`} alt={`icon of ${social}`} />
+              <img id="icon" src={`../src/images/${social}.svg`} alt={`icon of ${social}`} />
               </a>
             </li>
           )})
