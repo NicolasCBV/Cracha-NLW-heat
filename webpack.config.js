@@ -4,17 +4,41 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
-  mode: 'production',
+  mode: 'development',
   output: {
-    path: path.resolve(__dirname + '/docs'),
+    path: path.resolve(__dirname + '/dist'),
     filename: 'client.js'
   },
   module: {
     rules: [
-      { test: /\.(js|jsx)$/, exclude: /(node_modules)/, use: 'babel-loader' },
-      {test: /\.(png|jpg)$/, exclude: /(node_modules)/, use: 'file-loader'},
-      {test: /\.svg$/, use: 'svg-url-loader'},
-      {test: /\.js$/, use: 'source-map-loader'}
+      { 
+        test: /\.(js|jsx)$/, 
+        exclude: /(node_modules)/, 
+        use: 'babel-loader' 
+      },
+
+      {
+        test: /\.(png|jpg|svg)$/,
+        use: [{
+          loader: 'url-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'images/',
+          }
+        }]
+      },
+
+      {
+        test: /\.html$/,
+        use: [
+          'html-loader'
+        ]
+      },
+
+      {
+        test: /\.js$/, 
+        use: 'source-map-loader'
+      }
     ],
   },
   plugins: [
