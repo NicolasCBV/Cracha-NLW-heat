@@ -4,7 +4,7 @@
 
 
 <p>
-  in the middle of october 2021 I started one project created in one event called NLW-heat of educational institute rocketseat, the project consists in create one badge to redirect to one of your social medias using the Github API, in the course of time I finished this project and I just continued studying Javascript and another features. Consequently I was started to study react js and I decided to upgrade this project and put the repository in public mode if you want see the page <a href="https://nlw-heat-card-demo.netlify.app/" target="_blank">check this link</a>.
+  in the middle of october 2021 I started one project created in one event called NLW-heat of educational institute rocketseat, the project consists in create one badge to redirect to one of your social medias using the Github API, in the course of time I finished this project and I just continued studying Javascript and another features. Consequently I was started to study react js and I decided to upgrade this project and put the repository in public mode if you want see the page <a href="https://nlw-heat-card-demo.netlify.app/">check this link</a>.
 </p>
  
 <hr/>
