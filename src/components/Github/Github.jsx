@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react'
 import Config from '../../config.json';
 
 import TextContent from './styles'; 
-import GithubLogo from '../../images/github.svg';
 
 
 export default function Github(){
@@ -38,7 +37,7 @@ export default function Github(){
             {Config.GithubAPI && (
               <>
                 <a id="userGitHub" href={link} target="_blank">
-                  <img src={GithubLogo} alt="github" />
+                  <img src="./images/github.svg" alt="github" />
                     <span id="userLogin">{Config.GithubAPI}</ span>
                 </a>
               </>
