@@ -15,12 +15,6 @@ function App() {
   return (
     <Box>
       <Styles/>
-      <div className='container' 
-        style={{
-          textAlign: 'center',
-          position: 'relative',
-          top: '-9rem'
-          }}>
 
         <Avatar image={url}/>
         
@@ -28,7 +22,6 @@ function App() {
 
         <SocialMedia/>
 
-      </div>
     </Box>
   )
 }

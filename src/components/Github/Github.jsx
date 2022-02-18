@@ -13,6 +13,7 @@ export default function Github(){
 
   // /*===========Get API github==================*/
   if(Config.GithubAPI){
+    document.title = `NLW-heat - ${Config.GithubAPI}`;
     const url = `https://api.github.com/users/${Config.GithubAPI}`
     
     useEffect(()=>{
@@ -24,6 +25,7 @@ export default function Github(){
     },[])
   }else{
     useEffect(()=>{
+      document.title = `NLW-heat - ${Config.AvatarConfig.name}`;
       setName(Config.AvatarConfig.name);
       setBio(Config.AvatarConfig.bio);
     },[])

@@ -10,6 +10,6 @@
     "AvatarConfig": {
         "name": "Your name",
         "bio": "Your biography",
-        "image": "../../src/images/Koala.jpg"  
+        "image": "../../src/images/PutYourImageHere"  
     }
 }

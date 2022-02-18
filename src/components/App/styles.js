@@ -12,20 +12,21 @@ export default function Styles(){
         --background-hover: rgb(231, 229, 229); 
       }
 
+      #app{
+        width: 100%;
+        height: 100%;
+      }
+
       html,
       body {
-        overflow-x: hidden;
+        overflow: hidden;
         width: 100%;
         height: 100%;
       }
       
-      body {
-        display: grid;
-        place-items: center;
+      body{
         background: url(../../src/images/mobile.svg) no-repeat center/cover;
         min-height: 812px;
-        width: 100vw;
-        height: 100vh;
       }
       
 
@@ -44,7 +45,11 @@ export const Box = styled.div`
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  text-align: center;
+  position: relative;
       z-index: 1;
+      top: -3rem;
+  word-break: break-all;
 
   color: var(--gray);
   @media (min-width: 630px) {
@@ -52,11 +57,11 @@ export const Box = styled.div`
       content: '';
       position: absolute;
          z-index: -1;
-         top: -24rem;
+         top: -11.5rem;
          left: -2.5rem;
          
 
-      height: 53rem;
+      height: 50rem;
       width: 21rem;
 
       background: url(../../src/images/card.svg) no-repeat center/cover;
