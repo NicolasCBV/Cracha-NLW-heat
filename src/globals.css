@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+
+:root{
+  --background-hover: rgb(231, 229, 229); 
+}
+
+#app{
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  background: url(./src/images/mobile.svg) no-repeat center/cover;
+  min-height: 812px;
+}
+
+
+@media (min-width: 630px) {
+  body {
+    background: url(./src/images/desktop.svg) no-repeat center/cover;
+    background-color: hsl(240, 3%, 7%);
+  }
+}
