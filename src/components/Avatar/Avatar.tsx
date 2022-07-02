@@ -9,7 +9,7 @@ export default function Avatar({ image }: props){
   return (
     <AvatarPhoto>
       <span>
-          <img src="./src/images/logo.svg" alt="Selo Rockeseat" />
+          <img src="/images/logo.svg" alt="Selo Rockeseat" />
       </span>
       <img id="userImg" src={image} alt="Imagem pessoal" />
     </AvatarPhoto>

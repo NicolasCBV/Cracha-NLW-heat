@@ -36,7 +36,7 @@ export default function Github(){
             {Config.GithubAPI && (
               <>
                 <a id="userGitHub" href={link} target="_blank">
-                  <img src="./src/images/github.svg" alt="github" />
+                  <img src="/images/github.svg" alt="github" />
                     <span id="userLogin">{Config.GithubAPI}</ span>
                 </a>
               </>

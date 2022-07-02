@@ -10,7 +10,7 @@ export default function SocialMedia(){
           return (
             <li key={index} className={socialMedia}>
               <a href={`https://www.${socialMedia}.com/${socialMedia}`} target="_blank">
-              <img id="icon" src={`./src/images/${socialMedia}.svg`} alt={`icon of ${socialMedia}`} />
+              <img id="icon" src={`/images/${socialMedia}.svg`} alt={`icon of ${socialMedia}`} />
               </a>
             </li>
           )})

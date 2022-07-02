@@ -10,6 +10,6 @@
     "AvatarConfig": {
         "name": "Your name",
         "bio": "Your biography",
-        "image": "./src/images/defaultPictureProfile.svg"  
+        "image": "/images/defaultPictureProfile.svg"  
     }
 }

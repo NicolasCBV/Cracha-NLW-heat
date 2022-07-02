@@ -25,7 +25,7 @@ export const Box = styled.div`
       height: 50rem;
       width: 21rem;
 
-      background: url(./src/images/card.svg) no-repeat center/cover;
+      background: url(/images/card.svg) no-repeat center/cover;
     }
   }
 `;
