@@ -1,26 +1,26 @@
 {
-    "GithubAPI": "",
+    "GithubAPI": "NicolasCBV",
     "OnlyImage": true,
     "SocialMedias": [
         {
-            "link": "mailto:your-email",
+            "link": "mailto:nicolascbv700@gmail.com",
             "imageURL": "/images/email.svg",
+            "alt": "imagem de um envolope"
+        },
+        {
+            "link": "tel:+5531973438717",
+            "imageURL": "/images/phone.svg",
             "alt": "imagem de um telefone"
         },
         {
-            "link": "tel:your-phone",
-            "imageURL": "/images/phone.svg",
-            "alt": "alt of your image"
-        },
-        {
-            "link": "https//www.your-portfolio.com",
+            "link": "https://rebrand.ly/gqbnysf",
             "imageURL": "/images/profile.svg",
-            "alt": "alt of your image"
+            "alt": "imagem de uma pessoa em uma folha"
         }
     ],
     "AvatarConfig": {
-        "name": "Your name",
-        "bio": "Your biography",
+        "name": "Nícolas Basilio",
+        "bio": "Olá, seja bem vindo ao crachá virtual, aproveite para estabelecer seus meios de contato comigo!",
         "image": "/images/defaultPictureProfile.svg"  
     }
 }
