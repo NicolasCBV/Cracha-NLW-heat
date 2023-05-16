@@ -1,12 +1,23 @@
 {
-    "GithubAPI": "NicolasCBV",
-    "SocialMedias": {
-        "youtube": "channel/UCt5BZdVGuRVV0vg6om92bwA",
-        "facebook": "nicolas.c.viana.1",
-        "instagram": "orix304",
-        "twitter": "NcolasCleiton1"
-    },
-
+    "GithubAPI": "",
+    "OnlyImage": true,
+    "SocialMedias": [
+        {
+            "link": "mailto:your-email",
+            "imageURL": "/images/email.svg",
+            "alt": "imagem de um telefone"
+        },
+        {
+            "link": "tel:your-phone",
+            "imageURL": "/images/phone.svg",
+            "alt": "alt of your image"
+        },
+        {
+            "link": "https//www.your-portfolio.com",
+            "imageURL": "/images/profile.svg",
+            "alt": "alt of your image"
+        }
+    ],
     "AvatarConfig": {
         "name": "Your name",
         "bio": "Your biography",

@@ -1,9 +1,8 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from "react"
 
-import Config from '../../config.json';
+import Config from "../../config.json";
 
-import TextContent from './styles'; 
-
+import TextContent from "./styles"; 
 
 export default function Github(){
   const [name, setName] = useState('');
@@ -27,8 +26,10 @@ export default function Github(){
   }
 
   useEffect(()=>{
-    Config.GithubAPI ? useGithubAPI() : getAndSetDataInJSON()
-  },[])
+    Config.GithubAPI && !Config.OnlyImage 
+      ? useGithubAPI() 
+      : getAndSetDataInJSON();
+  },[]);
 
   return(
     <TextContent>

@@ -7,7 +7,9 @@ import Config from '../../config.json';
 
 
 function App() {
-  const url = (Config.GithubAPI)? `https://github.com/${Config.GithubAPI}.png` : Config.AvatarConfig.image
+  const url = (Config.GithubAPI || Config.onlyImage) 
+    ? `https://github.com/${Config.GithubAPI}.png` 
+    : Config.AvatarConfig.image
   
   return (
     <Box>

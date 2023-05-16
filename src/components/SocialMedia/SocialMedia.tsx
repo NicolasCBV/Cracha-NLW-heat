@@ -5,12 +5,16 @@ export default function SocialMedia(){
   return(
     <List>
       {
-        Object.keys(config.SocialMedias).map((social, index)=> {
+        config.SocialMedias.map((social, index)=> {
           const socialMedia = social;
           return (
-            <li key={index} className={socialMedia}>
-              <a href={`https://www.${socialMedia}.com/${socialMedia}`} target="_blank">
-              <img id="icon" src={`/images/${socialMedia}.svg`} alt={`icon of ${socialMedia}`} />
+            <li key={index}>
+              <a href={socialMedia.link} target="_blank">
+                <img
+                  id="icon" 
+                  src={socialMedia.imageURL} 
+                  alt={socialMedia.alt} 
+                />
               </a>
             </li>
           )})

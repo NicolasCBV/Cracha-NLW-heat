@@ -1,4 +1,3 @@
-import React from 'react';
 import AvatarPhoto from './styles';
 
 interface props {
@@ -9,9 +8,9 @@ export default function Avatar({ image }: props){
   return (
     <AvatarPhoto>
       <span>
-          <img src="/images/logo.svg" alt="Selo Rockeseat" />
+          <img src="/images/logo.svg" alt="Rockeseat icon" />
       </span>
-      <img id="userImg" src={image} alt="Imagem pessoal" />
+      <img id="userImg" src={image} alt="Avatar" />
     </AvatarPhoto>
   );
 }
