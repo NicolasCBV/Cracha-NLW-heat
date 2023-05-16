@@ -7,7 +7,7 @@ import Config from '../../config.json';
 
 
 function App() {
-  const url = (Config.GithubAPI || Config.onlyImage) 
+  const url = (Config.GithubAPI || Config.OnlyImage) 
     ? `https://github.com/${Config.GithubAPI}.png` 
     : Config.AvatarConfig.image
   
